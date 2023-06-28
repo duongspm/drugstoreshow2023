@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /data/download/
+Disallow: /*.webm
+Disallow: /*.mp4
+Disallow: /*.wmv

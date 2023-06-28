@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* Press */
+.news{padding: 100px 0 50px;}
+.news li{display: flex; flex-wrap: wrap; margin: 0 0 30px;}
+.news time{width: 150px; font-size: 1.8rem; line-height: 1.4; font-weight: 500; color: #0ab8dc;}
+.news p{width: calc(100% - 150px);}
+.news a{text-decoration: underline; color: #0ab8dc;}
+.news a:hover{opacity: .8;}
+
+
+/*          Media
+----------------------------*/
+@media (max-width: 767px){
+    .news{padding: 80px 0 0 0;}
+	.news time{width: 100%;}
+    .news p{width: 100%;}
+}

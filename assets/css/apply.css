@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+.box1 {padding: 50px 0 0; text-align: center; margin-bottom: 60px;}
+.box1 .txt1 {margin-bottom: 50px;}
+.box1 .txt1 p:nth-of-type(1) {font-size: 2rem; font-weight: bold;}
+.box1 .txt1 p:nth-of-type(2) {font-size: 3rem; font-weight: bold; color: #d71518; letter-spacing: 0.1em;}
+.box1 .txt1 p:nth-of-type(2) span {font-size: 5rem;}
+.box1 .txt1 p:nth-of-type(2) span.year {font-size: 4rem;}
+.box1 .txt1 p:nth-of-type(3) {font-size: 1.2rem;}
+.box1 .txt2 {margin-bottom: 50px;}
+
+.box2 {margin-bottom: 100px;}
+.box2 ul li {margin-bottom: 40px;}
+.box2 ul li:last-of-type {margin-bottom: 0;}
+.box2 ul li h4 {font-weight: bold; color: #0ab8dc; font-size: 1.8rem; margin-bottom: 10px;}
+.box2 ul li .dateBlue {color: #0ab8dc; font-size: 1.8rem; font-weight: 500;}
+
+
+
+/*          Media
+----------------------------*/
+@media (max-width: 767px){
+	.box1 .txt1 {margin-bottom: 20px;}
+	.box1 .txt1 p:nth-of-type(1) {font-size: 1.6rem;}
+	.box1 .txt1 p:nth-of-type(2) {font-size: 1.6rem;}
+	.box1 .txt1 p:nth-of-type(2) span {font-size: 2.8rem;}
+	.box1 .txt1 p:nth-of-type(2) span.year {font-size: 2.4rem;}
+	.box1 .txt2 {margin-bottom: 20px; text-align: left;}
+
+
+	.box2 {margin-bottom: 60px;}
+}

@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* List */
+main .container{padding-top: 80px;}
+.group{margin: 0 0 100px;}
+.title{display: flex; align-items: center; font-size: 2.8rem; font-weight: bold; line-height: 1.1; margin: 0 0 30px;}
+.title img{margin-right: 20px;}
+.notice{margin: 0 0 20px;}
+.notice span{display: inline-block; margin: 5px 8px 0 0;}
+
+.l-exhibitor,
+.l-business{font-size: 1.3rem; line-height: 1; font-weight: 500; min-width: 100px; height: 20px; text-align: center; padding: 3px 0; border-radius: 20px;}
+
+.l-exhibitor{background: #fff100; color: #000;}
+.l-business{background: #6eb92b; color: #fff;}
+
+.list{display: flex; flex-wrap: wrap; border: 1px solid #ccc; border-bottom: none; border-right: none;}
+.list .item{padding: 6px 9px; border-bottom: 1px solid #ccc; border-right: 1px solid #ccc; display: flex; justify-content: space-between; width: 50%;}
+.list .cate{display: flex; padding: 3px 0 3px 5px;}
+.list .cate li{margin-left: 5px;}
+
+#health .title{color: #54c3f1;}
+#beauty .title{color: #bb8dbe;}
+#fem .title{color: #ea6188;}
+#sdgs .title{color: #0099d9;}
+#food .title{color: #85cbbf;}
+#drink .title{color: #ed7969;}
+#life .title{color: #f6af74;}
+#home .title{color: #ddb078;}
+#pet .title{color: #a97d5c;}
+#enjoylife .title{color: #ee8593;}
+#store .title{color: #fac02c;}
+#others .title{color: #4694d1;}
+
+.date{text-align: right;}
+
+/*          Media
+----------------------------*/
+@media (max-width: 767px){
+    main {padding-bottom: 50px;}
+    main .container{padding-top: 60px;}
+    .group{margin: 0 0 70px;}
+    .title{font-size: 2rem; margin: 0 0 20px;}
+    .title img{margin-right: 10px; width: 60px;}
+    
+    .list .item{width: 100%;}
+    .list .cate{flex-wrap: wrap; align-content: flex-start; width: 110px; padding: 3px 0 3px 10px;}
+    .list .cate li{margin: 0 0 5px;}
+    .list .cate li:last-of-type{margin: 0;}
+}

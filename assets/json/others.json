@@ -1,0 +1,5 @@
+[
+	{ "status" : true, "joint_exhibition" : false, "for_business" : true, "company_name" : "株式会社エンファム." },
+	{ "status" : true, "joint_exhibition" : false, "for_business" : false, "company_name" : "株式会社WBH" },
+	{ "status" : true, "joint_exhibition" : false, "for_business" : false, "company_name" : "株式会社ドラッグマガジン" }	
+]

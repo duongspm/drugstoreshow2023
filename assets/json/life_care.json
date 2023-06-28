@@ -1,0 +1,4 @@
+[
+	{ "status" : true,	"joint_exhibition" : false,	"for_business" : false,	"company_name" : "テルモ株式会社" } ,
+	{ "status" : true,	"joint_exhibition" : false,	"for_business" : true,	"company_name" : "トムス株式会社" }
+]

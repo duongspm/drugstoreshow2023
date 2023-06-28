@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+
+main .container {padding: 60px 0 0;}
+main ul li {margin-bottom: 20px;}
+main ul li a {display: block; border: 1px solid #0ab8dc; line-height: 1; padding: 10px; color: #0ab8dc; font-size: 2rem; text-align: center; background: url(../images/common/icc_arr_blue.png) no-repeat center right 20px;}
+main ul li a:hover {background-color: #0ab8dc; background-image: url(../images/common/icc_arr_white.png); color: #fff;}
+
+
+/*          Media
+----------------------------*/
+@media (max-width: 767px){
+	main ul li {margin-bottom: 10px;}
+	main ul li a {font-size: 1.6rem; margin-bottom: 10px;}
+}
