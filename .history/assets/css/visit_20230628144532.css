@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* Visit */
+#visit{
+    padding-top: 60px;
+}
+.sub__title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    padding: 5px 0;
+    background-color: #fff100;
+}
+.visit__btn{
+    display: flex;
+}
+/*          Media
+----------------------------*/
+@media (max-width: 767px){
+    
+    
+    
+}

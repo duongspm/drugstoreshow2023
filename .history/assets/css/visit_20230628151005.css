@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* Visit */
+#visit{
+    padding-top: 60px;
+}
+.sub__title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    padding: 5px 0;
+    background-color: #fff100;
+}
+.visit__btn{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.visit--btn{
+    width: calc(50% - 15px);
+    max-width: 485px;
+    padding: 10px 20px;
+    position: relative;
+}
+.visit--btn p{
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.4;
+    font-weight: 500;
+    color: #ffffff;
+}
+.visit--btn p span{
+    font-size: 20px;
+}
+.visit--btn-left{
+    background-color: #f56403;
+}
+.visit--btn-right{
+    background-color: #44ac33;
+}
+.visit--btn::after{
+    position: absolute;
+    content: "";
+    width: 87px;
+    height: 64px;
+    background: url(../images/visit/flower-small.png) no-repeat;
+    background-size: cover;
+    top: -20px;
+    left: -33px;
+}
+.visit--btn-right::after{
+    /* transform: rotate(90deg); */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    top: -20px;
+    right: -33px;
+    left: unset;
+}
+.box__flex{
+    display: flex;
+}
+.box__flex--left{
+    
+}
+/*          Media
+----------------------------*/
+@media (max-width: 767px){
+    
+    
+    
+}

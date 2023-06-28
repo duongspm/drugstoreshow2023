@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* Visit */
+#visit{
+    padding-top: 60px;
+}
+.sub__title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*          Media
+----------------------------*/
+@media (max-width: 767px){
+    
+    
+    
+}
