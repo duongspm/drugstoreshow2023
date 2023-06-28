@@ -151,21 +151,10 @@
     border: 1px solid #ccc;
     padding: 10px;
 }
-.table--btn{
-    padding: 15px 0;
-}
 .table--btn .btnY a{
-    margin: 0 0 auto 0 !important;
+    margin: 0 0 auto !important;
     font-size: 15px;
     border: none;
-    max-width: 350px;
-}
-.box2 .box__event:nth-child(1){
-    padding-bottom: 45px;
-}
-.txt-green{
-    color: #6fba2c !important;
-    border-left: 3px solid #6fba2c !important;
 }
 /*          Media
 ----------------------------*/

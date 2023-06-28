@@ -160,7 +160,7 @@
     border: none;
     max-width: 350px;
 }
-.box2 .box__event:nth-child(1){
+.box__event:nth-child(1){
     padding-bottom: 45px;
 }
 .txt-green{
