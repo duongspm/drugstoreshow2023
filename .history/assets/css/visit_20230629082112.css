@@ -26,7 +26,6 @@
     line-height: 1.4;
     font-weight: 500;
     color: #ffffff;
-    transition: 0.2s linear;
 }
 .visit__tit p span {
     font-size: 20px;
@@ -203,7 +202,7 @@
     font-size: 15px;
     border: none;
     max-width: 350px;
-    font-weight: bold;
+    font
 }
 
 .box__event:first-of-type {
@@ -214,12 +213,10 @@
     color: #6fba2c !important;
     border-left: 3px solid #6fba2c !important;
 }
-.only-sp{
-    display: none;
-}
+
 /*          Media
 ----------------------------*/
-@media (max-width: 1020px) {
+@media (max-width: 856px) {
     .visit__tit p {
         font-size: min(5vw, 20px);
     }
@@ -290,11 +287,5 @@
     .visit__tit::after {
         width: 60px;
         height: 45px;
-    }
-    .sub__title {
-        font-size: 18px;
-    }
-    .only-sp{
-        display: block;
     }
 }

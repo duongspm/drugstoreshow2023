@@ -26,7 +26,6 @@
     line-height: 1.4;
     font-weight: 500;
     color: #ffffff;
-    transition: 0.2s linear;
 }
 .visit__tit p span {
     font-size: 20px;
@@ -214,9 +213,7 @@
     color: #6fba2c !important;
     border-left: 3px solid #6fba2c !important;
 }
-.only-sp{
-    display: none;
-}
+
 /*          Media
 ----------------------------*/
 @media (max-width: 1020px) {
@@ -295,6 +292,6 @@
         font-size: 18px;
     }
     .only-sp{
-        display: block;
+        
     }
 }
